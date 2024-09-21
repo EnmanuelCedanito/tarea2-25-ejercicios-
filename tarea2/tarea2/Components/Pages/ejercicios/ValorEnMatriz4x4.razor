@@ -1,0 +1,41 @@
+@page "/valor-en-matriz-4x4"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Contar cuántas veces se repite un valor en una matriz 4x4</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 4; i++)
+        {
+            @for (int j = 0; j < 4; j++)
+            {
+                <input @bind="matriz[i,j]" type="number" class="form-control" placeholder="Posición @(i+1)-@(j+1)" /><br />
+            }
+        }
+        <input @bind="valorBuscar" type="number" class="form-control" placeholder="Valor a buscar" />
+        <button @onclick="ContarValor">Contar</button>
+
+        <p class="result">Cantidad de veces que se repite: @cantidad</p>
+    </div>
+</div>
+
+@code {
+    private int[,] matriz = new int[4, 4];
+    private int valorBuscar;
+    private int cantidad;
+
+    private void ContarValor()
+    {
+        cantidad = 0;
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                if (matriz[i, j] == valorBuscar) cantidad++;
+            }
+        }
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

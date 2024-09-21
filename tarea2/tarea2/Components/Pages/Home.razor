@@ -1,0 +1,61 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+
+
+@code {
+    // Lista de ejercicios con nombres y posiblemente más detalles como la URL de la imagen.
+    private List<ExerciseInfo> exercises = new List<ExerciseInfo>
+    {
+        new ExerciseInfo { Name = "Último Dígito 🔢", ImageUrl = "/image/1.jpg", Url = "ultimo-digito" },
+        new ExerciseInfo { Name = "Cantidad de Dígitos 📏", ImageUrl = "image/2.jpg", Url = "cantidad-digitos" },
+        new ExerciseInfo { Name = "Dígitos Primos 💡", ImageUrl = "image/3.jpg", Url = "cantidad-digitos-primos" },
+        new ExerciseInfo { Name = "Código ASCII ⌨️", ImageUrl = "image/4.jpg", Url = "codigo-ascii" },
+        new ExerciseInfo { Name = "Factorial ❗", ImageUrl = "image/5.jpg", Url = "calcular-factorial" },
+        new ExerciseInfo { Name = "Múltiplo de Dígito ➗", ImageUrl = "image/6.jpg", Url = "multiplo-entero-digito" },
+        new ExerciseInfo { Name = "Contar Dígito 🔍", ImageUrl = "image/7.jpg", Url = "cantidad-digito-en-entero" },
+        new ExerciseInfo { Name = "Múltiplo de Número ↔️", ImageUrl = "image/8.jpg", Url = "multiplo-entre-enteros" },
+        new ExerciseInfo { Name = "ASCII de Dígito 🎯", ImageUrl = "image/9.jpg", Url = "codigo-ascii-digito" },
+        new ExerciseInfo { Name = "Número Primo 🔢", ImageUrl = "image/10.jpg", Url = "verificar-numero-primo" },
+        new ExerciseInfo { Name = "Primer y Último Iguales ⚖️", ImageUrl = "image/11.jpg", Url = "primer-ultimo-digito-igual" },
+        new ExerciseInfo { Name = "Diferencia Primos ➖", ImageUrl = "image/12.jpg", Url = "diferencia-es-primo" },
+        new ExerciseInfo { Name = "Dígito en Posición 📍", ImageUrl = "image/13.jpg", Url = "digito-en-posicion" },
+        new ExerciseInfo { Name = "Mayor en Vector 🔝", ImageUrl = "image/14.jpg", Url = "mayor-en-vector" },
+        new ExerciseInfo { Name = "Fibonacci en Vector 🔢🔄", ImageUrl = "image/15.jpg", Url = "fibonacci-en-vector" },
+        new ExerciseInfo { Name = "Promedio Vector 📊", ImageUrl = "image/ejercicio5.jpg", Url = "promedio-vector" },
+        new ExerciseInfo { Name = "Buscar en Vector 🔎", ImageUrl = "images/ejercicio5.jpg", Url = "valor-en-vector" },
+        new ExerciseInfo { Name = "Primo Termina en 3 ➖3️⃣", ImageUrl = "images/ejercicio5.jpg", Url = "primo-termina-en-tres" },
+        new ExerciseInfo { Name = "Potencia 💥", ImageUrl = "images/ejercicio5.jpg", Url = "exponente-entero" },
+        new ExerciseInfo { Name = "Contar Dígitos en Vector 🔢🔍", ImageUrl = "images/ejercicio5.jpg", Url = "cantidad-digito-en-vector" },
+        new ExerciseInfo { Name = "Penúltimo Dígito en Vector 🔄🔢", ImageUrl = "images/ejercicio5.jpg", Url = "penultimo-digito-en-vector" },
+        new ExerciseInfo { Name = "Primos en Matriz 📈", ImageUrl = "images/ejercicio5.jpg", Url = "primos-en-matriz-3x4" },
+        new ExerciseInfo { Name = "Contar en Matriz 🧮", ImageUrl = "images/ejercicio5.jpg", Url = "valor-en-matriz-4x4" },
+        new ExerciseInfo { Name = "Mayor en Matriz 🔝📊", ImageUrl = "images/ejercicio5.jpg", Url = "mayor-en-matriz-4x4" },
+        new ExerciseInfo { Name = "Moda en Matriz 🔁", ImageUrl = "images/ejercicio5.jpg", Url = "moda-en-matriz-5x5" }
+    };
+
+    // Puedes definir una clase para manejar la información de cada ejercicio.
+    public class ExerciseInfo
+    {
+        public string Name { get; set; }
+        public string ImageUrl { get; set; }
+        public string Url { get; set; }
+    }
+}
+
+<h1>Lista de Ejercicios</h1>
+
+<div class="card-container">
+    @foreach (var exercise in exercises)
+    {
+        <div class="card">
+            <img src="@exercise.ImageUrl" alt="@exercise.Name">
+            <div class="card-body">
+                <h5 class="card-title">@exercise.Name</h5>
+                <a href="@exercise.Url" class="btn">Ver Ejercicio</a>
+            </div>
+        </div>
+    }
+</div>
+

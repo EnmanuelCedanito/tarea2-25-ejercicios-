@@ -1,0 +1,30 @@
+@page "/fibonacci-en-vector"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Contar números del vector que están en los primeros 30 de Fibonacci</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 10; i++)
+        {
+            <input @bind="vector[i]" type="number" class="form-control" placeholder="Valor @(i+1)" /><br />
+        }
+        <button @onclick="ContarFibonacci" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Cantidad: @cantidad</p>
+    </div>
+</div>
+
+@code {
+    private int[] vector = new int[10];
+    private int cantidad;
+    private readonly HashSet<int> fibonacci = new HashSet<int> { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 };
+
+    private void ContarFibonacci()
+    {
+        cantidad = vector.Count(n => fibonacci.Contains(n));
+    }
+}
+
+<style>
+    /* Estilo general reutilizado */
+</style>

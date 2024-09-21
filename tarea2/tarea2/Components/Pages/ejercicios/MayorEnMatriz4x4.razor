@@ -1,0 +1,43 @@
+@page "/mayor-en-matriz-4x4"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Retornar la fila donde se encuentra el número mayor en una matriz 4x4</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 4; i++)
+        {
+            @for (int j = 0; j < 4; j++)
+            {
+                <input @bind="matriz[i,j]" type="number" class="form-control" placeholder="Posición @(i+1)-@(j+1)" /><br />
+            }
+        }
+        <button @onclick="ObtenerFilaMayor">Obtener fila</button>
+
+        <p class="result">Fila del número mayor: @filaMayor</p>
+    </div>
+</div>
+
+@code {
+    private int[,] matriz = new int[4, 4];
+    private int filaMayor;
+
+    private void ObtenerFilaMayor()
+    {
+        int mayor = int.MinValue;
+        for (int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                if (matriz[i, j] > mayor)
+                {
+                    mayor = matriz[i, j];
+                    filaMayor = i + 1; // Fila es i+1 (humana) ya que empieza en 0
+                }
+            }
+        }
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

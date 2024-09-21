@@ -1,0 +1,49 @@
+@page "/moda-en-matriz-5x5"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Retornar la moda de una matriz 5x5</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 5; i++)
+        {
+            @for (int j = 0; j < 5; j++)
+            {
+                <input @bind="matriz[i,j]" type="number" class="form-control" placeholder="Posición @(i+1)-@(j+1)" /><br />
+            }
+        }
+        <button @onclick="ObtenerModa" class="btn btn-primary">Obtener Moda</button>
+
+        <p class="result">Moda: @moda</p>
+    </div>
+</div>
+
+@code {
+    private int[,] matriz = new int[5, 5];
+    private int moda;
+
+    private void ObtenerModa()
+    {
+        var frecuencia = new Dictionary<int, int>();
+
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                if (frecuencia.ContainsKey(matriz[i, j]))
+                {
+                    frecuencia[matriz[i, j]]++;
+                }
+                else
+                {
+                    frecuencia[matriz[i, j]] = 1;
+                }
+            }
+        }
+
+        moda = frecuencia.OrderByDescending(f => f.Value).First().Key;
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

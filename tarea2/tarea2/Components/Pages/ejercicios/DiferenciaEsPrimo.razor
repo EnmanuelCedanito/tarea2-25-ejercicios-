@@ -1,0 +1,39 @@
+@page "/diferencia-es-primo"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Verificar si la diferencia entre dos números es un número primo</h3>
+    <div class="card-body">
+        <input @bind="firstNumber" type="number" class="form-control" placeholder="Primer número" />
+        <input @bind="secondNumber" type="number" class="form-control" placeholder="Segundo número" />
+        <button @onclick="VerificarDiferenciaPrimo" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Resultado: @result</p>
+    </div>
+</div>
+
+@code {
+    private int firstNumber;
+    private int secondNumber;
+    private int result;
+
+    private void VerificarDiferenciaPrimo()
+    {
+        int diferencia = Math.Abs(firstNumber - secondNumber);
+        result = EsPrimo(diferencia) ? 1 : 0;
+    }
+
+    private bool EsPrimo(int numero)
+    {
+        if (numero < 2) return false;
+        for (int i = 2; i <= Math.Sqrt(numero); i++)
+        {
+            if (numero % i == 0) return false;
+        }
+        return true;
+    }
+}
+
+<style>
+    /* Estilo general reutilizado */
+</style>

@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = tarea2
+build_property.RootNamespace = tarea2
+build_property.ProjectDir = C:\Users\andre\OneDrive\Desktop\proyectos\tarea2\tarea2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\andre\OneDrive\Desktop\proyectos\tarea2\tarea2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/AcercaDe.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2VyY2FEZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/Contacto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb250YWN0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/Ejercicio1.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW8xLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CalcularFactorial.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENhbGN1bGFyRmFjdG9yaWFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CantidadDigitoEnEntero.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENhbnRpZGFkRGlnaXRvRW5FbnRlcm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CantidadDigitoEnVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENhbnRpZGFkRGlnaXRvRW5WZWN0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CantidadDigitosPrimos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENhbnRpZGFkRGlnaXRvc1ByaW1vcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CantidaDigitosNo1.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENhbnRpZGFEaWdpdG9zTm8xLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CodigoAscii.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENvZGlnb0FzY2lpLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/CodigoAsciiDeDigito.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXENvZGlnb0FzY2lpRGVEaWdpdG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/DiferenciaEsPrimo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXERpZmVyZW5jaWFFc1ByaW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/DigitoEnPosicion.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXERpZ2l0b0VuUG9zaWNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/ExponenteEntero.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXEV4cG9uZW50ZUVudGVyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/FibonacciEnVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXEZpYm9uYWNjaUVuVmVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/MayorEnMatriz4x4.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXE1heW9yRW5NYXRyaXo0eDQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/MayorEnVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXE1heW9yRW5WZWN0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/ModaEnMatriz5x5.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXE1vZGFFbk1hdHJpejV4NS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/MultiploEnteroDigito.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXE11bHRpcGxvRW50ZXJvRGlnaXRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/MultiploEntreEnteros.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXE11bHRpcGxvRW50cmVFbnRlcm9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/PenultimoDigitoEnVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFBlbnVsdGltb0RpZ2l0b0VuVmVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/PrimoTerminaEnTres.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFByaW1vVGVybWluYUVuVHJlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/PromedioVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFByb21lZGlvVmVjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/UltimoDigitoNo2.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFVsdGltb0RpZ2l0b05vMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/ValorEnMatriz4x4.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFZhbG9yRW5NYXRyaXo0eDQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/ValorEnVector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFZhbG9yRW5WZWN0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/ejercicios/VerificarNumeroPrimo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xlamVyY2ljaW9zXFZlcmlmaWNhck51bWVyb1ByaW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/PrimerUltimoDigitoIgual.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcmltZXJVbHRpbW9EaWdpdG9JZ3VhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/PrimosEnMatriz3x4.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcmltb3NFbk1hdHJpejN4NC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Pages/UltimoNumero.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVbHRpbW9OdW1lcm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/andre/OneDrive/Desktop/proyectos/tarea2/tarea2/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ttvj377xiy

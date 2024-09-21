@@ -1,0 +1,36 @@
+@page "/digito-en-posicion"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Retornar el dígito en la posición especificada</h3>
+    <div class="card-body">
+        <input @bind="inputNumber" type="number" class="form-control" placeholder="Introduce un número" />
+        <input @bind="posicion" type="number" class="form-control" min="1" max="5" placeholder="Posición (1-5)" />
+        <button @onclick="ObtenerDigito" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Resultado: @resultado</p>
+    </div>
+</div>
+
+@code {
+    private int inputNumber;
+    private int posicion;
+    private char resultado;
+
+    private void ObtenerDigito()
+    {
+        string numeroString = inputNumber.ToString();
+        if (posicion > 0 && posicion <= numeroString.Length)
+        {
+            resultado = numeroString[posicion - 1];
+        }
+        else
+        {
+            resultado = '-'; // Indica posición inválida
+        }
+    }
+}
+
+<style>
+    /* Estilo general reutilizado */
+</style>

@@ -1,0 +1,31 @@
+@page "/valor-en-vector"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Verificar si un valor está en el vector</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 10; i++)
+        {
+            <input @bind="vector[i]" type="number" class="form-control" placeholder="Valor @(i+1)" /><br />
+        }
+        <input @bind="valorBuscar" type="number" class="form-control" placeholder="Valor a buscar" />
+        <button @onclick="VerificarValor" class="btn btn-primary">Buscar</button>
+
+        <p class="result">Resultado: @resultado</p>
+    </div>
+</div>
+
+@code {
+    private int[] vector = new int[10];
+    private int valorBuscar;
+    private string resultado;
+
+    private void VerificarValor()
+    {
+        resultado = vector.Contains(valorBuscar) ? "El valor está en el vector" : "El valor no está en el vector";
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

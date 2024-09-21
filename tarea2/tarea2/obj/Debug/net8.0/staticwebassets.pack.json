@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tarea2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\tarea2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\10.jpg",
+      "PackagePath": "staticwebassets\\image\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\11.jpg",
+      "PackagePath": "staticwebassets\\image\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\12.jpg",
+      "PackagePath": "staticwebassets\\image\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\13.jpg",
+      "PackagePath": "staticwebassets\\image\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\14.jpg",
+      "PackagePath": "staticwebassets\\image\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\15.jpg",
+      "PackagePath": "staticwebassets\\image\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\4.jpg",
+      "PackagePath": "staticwebassets\\image\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\5.jpg",
+      "PackagePath": "staticwebassets\\image\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\6.jpg",
+      "PackagePath": "staticwebassets\\image\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\7.jpg",
+      "PackagePath": "staticwebassets\\image\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\8.jpg",
+      "PackagePath": "staticwebassets\\image\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\9.jpg",
+      "PackagePath": "staticwebassets\\image\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\OneDrive\\Desktop\\proyectos\\tarea2\\tarea2\\wwwroot\\image\\ImagenDePablo.jpg",
+      "PackagePath": "staticwebassets\\image\\ImagenDePablo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.tarea2.props",
+      "PackagePath": "build\\tarea2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.tarea2.props",
+      "PackagePath": "buildMultiTargeting\\tarea2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.tarea2.props",
+      "PackagePath": "buildTransitive\\tarea2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tarea2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

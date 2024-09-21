@@ -1,0 +1,31 @@
+@page "/cantidad-digito-en-vector"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Contar las veces que un dígito aparece en el vector</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 10; i++)
+        {
+            <input @bind="vector[i]" type="number" class="form-control" placeholder="Valor @(i+1)" /><br />
+        }
+        <input @bind="digito" type="number" class="form-control" placeholder="Dígito a buscar" />
+        <button @onclick="ContarDigito" class="btn btn-primary">Contar</button>
+
+        <p class="result">Cantidad: @cantidad</p>
+    </div>
+</div>
+
+@code {
+    private int[] vector = new int[10];
+    private int digito;
+    private int cantidad;
+
+    private void ContarDigito()
+    {
+        cantidad = vector.Count(n => n.ToString().Contains(digito.ToString()));
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

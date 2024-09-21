@@ -1,0 +1,49 @@
+@page "/primos-en-matriz-3x4"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Contar los números primos en una matriz 3x4</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 3; i++)
+        {
+            @for (int j = 0; j < 4; j++)
+            {
+                <input @bind="matriz[i,j]" type="number" class="form-control" placeholder="Posición @(i+1)-@(j+1)" /><br />
+            }
+        }
+        <button @onclick="ContarPrimos" class="btn btn-primary">Contar</button>
+
+        <p class="result">Cantidad de primos: @cantidad</p>
+    </div>
+</div>
+
+@code {
+    private int[,] matriz = new int[3, 4];
+    private int cantidad;
+
+    private void ContarPrimos()
+    {
+        cantidad = 0;
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                if (EsPrimo(matriz[i, j])) cantidad++;
+            }
+        }
+    }
+
+    private bool EsPrimo(int numero)
+    {
+        if (numero < 2) return false;
+        for (int i = 2; i <= Math.Sqrt(numero); i++)
+        {
+            if (numero % i == 0) return false;
+        }
+        return true;
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

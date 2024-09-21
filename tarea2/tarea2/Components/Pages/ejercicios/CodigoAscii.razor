@@ -1,0 +1,26 @@
+@page "/codigo-ascii"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Obtener el Código ASCII de un Carácter</h3>
+    <div class="card-body">
+        <input @bind="inputChar" type="text" maxlength="1" class="form-control" placeholder="Introduce un carácter" />
+        <button @onclick="ObtenerCodigoAscii" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Código ASCII: @result</p>
+    </div>
+</div>
+
+@code {
+    private string inputChar;
+    private int result;
+
+    private void ObtenerCodigoAscii()
+    {
+        result = (int)inputChar[0];
+    }
+}
+
+<style>
+    /* Same CSS as in the first exercise */
+</style>

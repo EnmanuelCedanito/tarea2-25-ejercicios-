@@ -1,0 +1,28 @@
+@page "/exponente-entero"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Calcular la potencia de una base elevada a un exponente</h3>
+    <div class="card-body">
+        <input @bind="baseNumber" type="number" class="form-control" placeholder="Base" />
+        <input @bind="exponente" type="number" class="form-control" placeholder="Exponente" />
+        <button @onclick="CalcularPotencia" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Resultado: @resultado</p>
+    </div>
+</div>
+
+@code {
+    private int baseNumber;
+    private int exponente;
+    private long resultado;
+
+    private void CalcularPotencia()
+    {
+        resultado = (long)Math.Pow(baseNumber, exponente);
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

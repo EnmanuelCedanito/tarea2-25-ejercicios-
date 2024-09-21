@@ -1,0 +1,80 @@
+/* Estilos globales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Contenido principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007acc;
+    color: white;
+}
+
+/* Estilos del navbar */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    background-color: #007acc;
+    margin: 0;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-menu li a:hover {
+    background-color: #005fa3;
+    transition: background-color 0.3s;
+}
+
+/* Botones y enlaces */
+button, .button {
+    background-color: #007acc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    background-color: #005fa3;
+}
+
+/* Estilos responsivos para diferentes tamaños de pantalla */
+@media (max-width: 600px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+}

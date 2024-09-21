@@ -1,0 +1,48 @@
+@page "/primo-termina-en-tres"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Retornar la posición del mayor número primo que termina en 3</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 10; i++)
+        {
+            <input @bind="vector[i]" type="number" class="form-control" placeholder="Valor @(i+1)" /><br />
+        }
+        <button @onclick="ObtenerPosicion" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Posición: @posicion</p>
+    </div>
+</div>
+
+@code {
+    private int[] vector = new int[10];
+    private int posicion;
+
+    private void ObtenerPosicion()
+    {
+        posicion = -1;
+        int mayorPrimo = int.MinValue;
+        for (int i = 0; i < vector.Length; i++)
+        {
+            if (EsPrimo(vector[i]) && vector[i] % 10 == 3 && vector[i] > mayorPrimo)
+            {
+                mayorPrimo = vector[i];
+                posicion = i + 1;
+            }
+        }
+    }
+
+    private bool EsPrimo(int numero)
+    {
+        if (numero < 2) return false;
+        for (int i = 2; i <= Math.Sqrt(numero); i++)
+        {
+            if (numero % i == 0) return false;
+        }
+        return true;
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

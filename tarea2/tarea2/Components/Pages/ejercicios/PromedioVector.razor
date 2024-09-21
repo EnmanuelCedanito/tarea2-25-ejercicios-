@@ -1,0 +1,29 @@
+@page "/promedio-vector"
+@rendermode InteractiveServer
+
+<div class="card">
+    <h3 class="card-title">Calcular el promedio entero del vector</h3>
+    <div class="card-body">
+        @for (int i = 0; i < 10; i++)
+        {
+            <input @bind="vector[i]" type="number" class="form-control" placeholder="Valor @(i+1)" /><br />
+        }
+        <button @onclick="CalcularPromedio" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Promedio: @promedio</p>
+    </div>
+</div>
+
+@code {
+    private int[] vector = new int[10];
+    private int promedio;
+
+    private void CalcularPromedio()
+    {
+        promedio = vector.Sum() / vector.Length;
+    }
+}
+
+<style>
+    .card { /* Estilo reutilizado */ }
+</style>

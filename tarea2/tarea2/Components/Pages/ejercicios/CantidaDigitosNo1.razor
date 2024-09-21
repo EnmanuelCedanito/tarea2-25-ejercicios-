@@ -1,0 +1,25 @@
+@page "/cantidad-digitos"
+@rendermode InteractiveServer
+<div class="card">
+    <h3 class="card-title">Obtener la Cantidad de Dígitos de un Número</h3>
+    <div class="card-body">
+        <input @bind="inputNumber" type="number" class="form-control" placeholder="Introduce un número" />
+        <button @onclick="ObtenerCantidadDigitos" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Cantidad de dígitos: @result</p>
+    </div>
+</div>
+
+@code {
+    private int inputNumber;
+    private int result;
+
+    private void ObtenerCantidadDigitos()
+    {
+        result = inputNumber.ToString().Length;
+    }
+}
+
+<style>
+    /* Same CSS as in the first exercise */
+</style>

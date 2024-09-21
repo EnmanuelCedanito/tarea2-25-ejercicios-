@@ -1,0 +1,63 @@
+@page "/ultimo-digito"
+@rendermode InteractiveServer
+<div class="card">
+    <h3 class="card-title">Obtener el Último Dígito de un Número</h3>
+    <div class="card-body">
+        <input @bind="inputNumber" type="number" class="form-control" placeholder="Introduce un número" />
+        <button @onclick="ObtenerUltimoDigito" class="btn btn-primary">Calcular</button>
+
+        <p class="result">Último dígito: @result</p>
+    </div>
+</div>
+
+@code {
+    private int inputNumber;
+    private int result;
+
+    private void ObtenerUltimoDigito()
+    {
+        result = Math.Abs(inputNumber % 10);
+    }
+}
+
+<style>
+    .card {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+    .card-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-control {
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .btn {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    .result {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+</style>
